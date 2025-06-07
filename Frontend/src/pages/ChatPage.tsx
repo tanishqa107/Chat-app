@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const WS_URL = "ws://localhost:3000";
+const WS_URL = "wss://chat-app-ux3n.onrender.com/";
 
 const ChatPage = () => {
    const [mode, setMode] = useState<"join" | "create">("join");
